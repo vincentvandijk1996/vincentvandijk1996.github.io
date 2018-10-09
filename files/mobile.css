@@ -229,7 +229,7 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 	}
 	
 	.experiences li, .formations li {
-		margin-bottom: 63px;
+		margin-bottom: 30px;
 	}
 	
 	.experiences li:last-child, .formations li:last-child {
@@ -351,4 +351,13 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 	}
 			h3.letterd:before {
 				content: 'D';
+	}
+	
+		table {
+		text-align:left!important;
+	}
+
+	
+	h4 {
+		padding:0px 0;
 	}
