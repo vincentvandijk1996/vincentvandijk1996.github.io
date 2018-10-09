@@ -1,6 +1,15 @@
 /**********
 /* Grille - 960.gs
 **********/
+
+	table td tr {
+		text-align:left!important;
+	}
+	
+	h4 {
+		padding:0px 0;
+	}
+
 .container_16 {
 	max-width: 960px;
 	width: 92%;
@@ -392,10 +401,3 @@
 		background-position: 0 -180px;
 	}
 	
-	table td tr {
-		text-align:left!important;
-	}
-	
-	h4 {
-		padding:0px 0;
-	}
