@@ -240,11 +240,35 @@
 	section[role=main] h3:after, h3:before {
 		content: ' ';
 		display: block;
-		height: 50px;
 		left: 0;
 		position: absolute;
 		top: -15px;
 		width: 50px;
+		padding-bottom:15px;
+		padding-top:15px;
+		text-align:center;
+		color:white;
+	}
+	
+	h3.letterm:before {
+				content: 'M';
+	}
+	
+		h3.lettero:before {
+				content: 'O';
+	}
+	
+			h3.letterc:before {
+				content: 'C';
+	}
+			h3.letterw:before {
+				content: 'W';
+	}
+			h3.letterc:before {
+				content: 'C';
+	}
+			h3.letterd:before {
+				content: 'D';
 	}
 	
 	section[role=main] h3:before {
@@ -295,7 +319,7 @@
 	}
 	
 	.experiences li, .formations li {
-		margin-bottom: 40px;
+		margin-bottom: 30px;
 	}
 	
 	.experiences li:last-child, .formations li:last-child {

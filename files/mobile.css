@@ -23,6 +23,8 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 		border-bottom:4px solid #33a4c9;
 		padding: 19px 0;
 		overflow: hidden;
+		background-color:#33a4c9;
+		
 	}
 	
 	header figure {
@@ -39,7 +41,7 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 	}
 	
 	header hgroup h2 {
-		color:#cecece;
+		color:white;
 		font-style: italic;
 		line-height: 30px;
 		text-shadow: 1px 1px 0 rgba(0,0,0,.3);
@@ -174,11 +176,14 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 	section[role=main] h3:after, h3:before {
 		content: ' ';
 		display: block;
-		height: 50px;
 		left: 0;
 		position: absolute;
 		top: -15px;
 		width: 50px;
+		padding-bottom:15px;
+		padding-top:15px;
+		text-align:center;
+		color:white;
 	}
 	
 	section[role=main] h3:before {
@@ -325,4 +330,25 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 	
 	.skype {
 		background-position: 0 -180px;
+	}
+	
+		h3.letterm:before {
+				content: 'M';
+	}
+	
+		h3.lettero:before {
+				content: 'O';
+	}
+	
+			h3.letterc:before {
+				content: 'C';
+	}
+			h3.letterw:before {
+				content: 'W';
+	}
+			h3.letterc:before {
+				content: 'C';
+	}
+			h3.letterd:before {
+				content: 'D';
 	}
