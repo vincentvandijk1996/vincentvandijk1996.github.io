@@ -392,8 +392,8 @@
 		background-position: 0 -180px;
 	}
 	
-	table {
-		text-align:left;
+	table td tr {
+		text-align:left!important;
 	}
 	
 	h4 {
